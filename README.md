@@ -12,7 +12,18 @@
 
 ```기능A 구현```
 
-
+- [S027_신병기](https://github.com/EthanShin)
+- [S004_고세림](https://github.com/koserim)
+- [S060_최동규](https://github.com/ChoiDongKyu96)
+- [S061_최철웅](https://github.com/chelwoong)
+- [S039_이승진](https://github.com/devilzCough)
+- [S017_박성민](https://github.com/rnfxl92)
+- [S016_문성주](https://github.com/A-by-alimelon)
+- [S028_신은지](https://github.com/devejs)
+- [S049_정승범](https://github.com/back99)
+- [S050_정재명](https://github.com/jjm159)
+- [S003_강병영](https://gist.github.com/RoKang)
+- [S038_이상윤](https://gist.github.com/SANGYOONLEE)
 
 ```기능B 구현```
 

@@ -1,0 +1,30 @@
+PODS:
+  - IBMSwiftSDKCore (1.0.0)
+  - IBMWatsonAssistantV1 (3.5.1):
+    - IBMSwiftSDKCore (~> 1.0.0)
+  - IBMWatsonAssistantV2 (3.5.1):
+    - IBMSwiftSDKCore (~> 1.0.0)
+  - IBMWatsonNaturalLanguageUnderstandingV1 (3.5.1):
+    - IBMSwiftSDKCore (~> 1.0.0)
+
+DEPENDENCIES:
+  - IBMWatsonAssistantV1 (~> 3.5.1)
+  - IBMWatsonAssistantV2 (~> 3.5.1)
+  - IBMWatsonNaturalLanguageUnderstandingV1 (~> 3.5.1)
+
+SPEC REPOS:
+  trunk:
+    - IBMSwiftSDKCore
+    - IBMWatsonAssistantV1
+    - IBMWatsonAssistantV2
+    - IBMWatsonNaturalLanguageUnderstandingV1
+
+SPEC CHECKSUMS:
+  IBMSwiftSDKCore: 54ad77b03a4d27b218ba514580197db3b89a96ca
+  IBMWatsonAssistantV1: b36e752b4a9ce08a925cae3e432dc2d07ba481ec
+  IBMWatsonAssistantV2: 02ae04d158a7b1bbafa39b2044c176ba8df710f4
+  IBMWatsonNaturalLanguageUnderstandingV1: 8a7cd4777f592903daed1a2a5df0eb3078c367f7
+
+PODFILE CHECKSUM: 5d044093a4710781b32edddde1179659918603f2
+
+COCOAPODS: 1.9.2

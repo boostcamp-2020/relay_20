@@ -10,8 +10,6 @@ import UIKit
 import Assistant
 import NaturalLanguageUnderstanding
 
-
-
 class SearchViewController: UIViewController {
     
     // MARK: - Views
@@ -41,9 +39,8 @@ class SearchViewController: UIViewController {
     
     // MARK: 사용자 키, url 입력
     
-    let myKey = ""
-    let ibmUrl = ""
-
+    private let myKey = ""
+    private let ibmUrl = ""
     
     // MARK: - App Life Cycle
     

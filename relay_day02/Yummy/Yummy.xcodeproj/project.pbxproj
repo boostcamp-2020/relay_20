@@ -3,17 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4C19B6CB24DD1ADF0003CB28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C19B6CA24DD1ADF0003CB28 /* AppDelegate.swift */; };
 		4C19B6CD24DD1ADF0003CB28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C19B6CC24DD1ADF0003CB28 /* SceneDelegate.swift */; };
-		4C19B6CF24DD1ADF0003CB28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C19B6CE24DD1ADF0003CB28 /* ViewController.swift */; };
+		4C19B6CF24DD1ADF0003CB28 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C19B6CE24DD1ADF0003CB28 /* SearchViewController.swift */; };
 		4C19B6D224DD1ADF0003CB28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C19B6D024DD1ADF0003CB28 /* Main.storyboard */; };
-		4C19B6D424DD1AE20003CB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C19B6D324DD1AE20003CB28 /* Assets.xcassets */; };
 		4C19B6D724DD1AE20003CB28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C19B6D524DD1AE20003CB28 /* LaunchScreen.storyboard */; };
 		4C19B6E024DD1DE00003CB28 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C19B6DF24DD1DE00003CB28 /* Category.swift */; };
+		4C19B70B24DD55B70003CB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C19B70A24DD55B70003CB28 /* Assets.xcassets */; };
+		4C19B70F24DD92360003CB28 /* RequestHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C19B70E24DD92360003CB28 /* RequestHeaderView.xib */; };
+		4C19B71324DD931E0003CB28 /* RequestHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C19B71224DD931E0003CB28 /* RequestHeaderView.swift */; };
 		7B57CBA5A00F62B91101960E /* Pods_Yummy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5695F885BE8CF15E7CB11F /* Pods_Yummy.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,12 +24,14 @@
 		4C19B6C724DD1ADF0003CB28 /* Yummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C19B6CA24DD1ADF0003CB28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C19B6CC24DD1ADF0003CB28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C19B6CE24DD1ADF0003CB28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C19B6CE24DD1ADF0003CB28 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		4C19B6D124DD1ADF0003CB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4C19B6D324DD1AE20003CB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C19B6D624DD1AE20003CB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4C19B6D824DD1AE20003CB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C19B6D824DD1AE20003CB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Yummy/SupportingFiles/Info.plist; sourceTree = SOURCE_ROOT; };
 		4C19B6DF24DD1DE00003CB28 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4C19B70A24DD55B70003CB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C19B70E24DD92360003CB28 /* RequestHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestHeaderView.xib; sourceTree = "<group>"; };
+		4C19B71224DD931E0003CB28 /* RequestHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHeaderView.swift; sourceTree = "<group>"; };
 		4E39F0BE249A982EC9214298 /* Pods-Yummy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yummy.release.xcconfig"; path = "Target Support Files/Pods-Yummy/Pods-Yummy.release.xcconfig"; sourceTree = "<group>"; };
 		E43EBE8C111766A2D20A4741 /* Pods-Yummy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yummy.debug.xcconfig"; path = "Target Support Files/Pods-Yummy/Pods-Yummy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,14 +69,8 @@
 		4C19B6C924DD1ADF0003CB28 /* Yummy */ = {
 			isa = PBXGroup;
 			children = (
-				4C19B6DE24DD1DD20003CB28 /* Models */,
-				4C19B6CA24DD1ADF0003CB28 /* AppDelegate.swift */,
-				4C19B6CC24DD1ADF0003CB28 /* SceneDelegate.swift */,
-				4C19B6CE24DD1ADF0003CB28 /* ViewController.swift */,
-				4C19B6D024DD1ADF0003CB28 /* Main.storyboard */,
-				4C19B6D324DD1AE20003CB28 /* Assets.xcassets */,
-				4C19B6D524DD1AE20003CB28 /* LaunchScreen.storyboard */,
-				4C19B6D824DD1AE20003CB28 /* Info.plist */,
+				4C19B70824DD54B50003CB28 /* SupportingFiles */,
+				4C19B70724DD54AB0003CB28 /* Sources */,
 			);
 			path = Yummy;
 			sourceTree = "<group>";
@@ -83,6 +81,54 @@
 				4C19B6DF24DD1DE00003CB28 /* Category.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4C19B70424DD54850003CB28 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C19B6CE24DD1ADF0003CB28 /* SearchViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4C19B70524DD54950003CB28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C19B6D024DD1ADF0003CB28 /* Main.storyboard */,
+				4C19B70E24DD92360003CB28 /* RequestHeaderView.xib */,
+				4C19B71224DD931E0003CB28 /* RequestHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C19B70624DD549D0003CB28 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				4C19B6CA24DD1ADF0003CB28 /* AppDelegate.swift */,
+				4C19B6CC24DD1ADF0003CB28 /* SceneDelegate.swift */,
+				4C19B6D524DD1AE20003CB28 /* LaunchScreen.storyboard */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		4C19B70724DD54AB0003CB28 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4C19B70624DD549D0003CB28 /* Entry */,
+				4C19B6DE24DD1DD20003CB28 /* Models */,
+				4C19B70524DD54950003CB28 /* Views */,
+				4C19B70424DD54850003CB28 /* ViewControllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4C19B70824DD54B50003CB28 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4C19B70A24DD55B70003CB28 /* Assets.xcassets */,
+				4C19B6D824DD1AE20003CB28 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		72747F7FA80E0EA3A6BB3449 /* Frameworks */ = {
@@ -99,7 +145,6 @@
 				E43EBE8C111766A2D20A4741 /* Pods-Yummy.debug.xcconfig */,
 				4E39F0BE249A982EC9214298 /* Pods-Yummy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -164,8 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C19B6D724DD1AE20003CB28 /* LaunchScreen.storyboard in Resources */,
-				4C19B6D424DD1AE20003CB28 /* Assets.xcassets in Resources */,
 				4C19B6D224DD1ADF0003CB28 /* Main.storyboard in Resources */,
+				4C19B70B24DD55B70003CB28 /* Assets.xcassets in Resources */,
+				4C19B70F24DD92360003CB28 /* RequestHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,9 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C19B6CF24DD1ADF0003CB28 /* ViewController.swift in Sources */,
+				4C19B6CF24DD1ADF0003CB28 /* SearchViewController.swift in Sources */,
 				4C19B6CB24DD1ADF0003CB28 /* AppDelegate.swift in Sources */,
 				4C19B6CD24DD1ADF0003CB28 /* SceneDelegate.swift in Sources */,
+				4C19B71324DD931E0003CB28 /* RequestHeaderView.swift in Sources */,
 				4C19B6E024DD1DE00003CB28 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Yummy/Info.plist;
+				INFOPLIST_FILE = Yummy/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,7 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Yummy/Info.plist;
+				INFOPLIST_FILE = Yummy/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -121,7 +121,7 @@ func requestCategories(urlString: String, limit: Int) {
 
 ## 실행결과
 
-<img src="https://user-images.githubusercontent.com/23303023/89626876-03b44180-d8d5-11ea-9fb0-ed8168473074.png" width="50%" />
+<img src="https://user-images.githubusercontent.com/54564170/89707825-e488e300-d9ac-11ea-878a-af717f25f62e.gif" width="25%" />
 
 [**알고리즘** 관련 글](https://choidongkyu96.github.io/3차-자동완성/) 검색 결과
 

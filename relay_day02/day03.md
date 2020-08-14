@@ -1,31 +1,18 @@
-<이따지울거>
+# :turtle: week3
 
-릴레이프로젝트 깃헙 리드미에 아래의 내용을 포함한 프로젝트 소개 자료를 올려주세요.
-
-- 데모가 가능한 URL (데모가 어려운 모바일은 데모 영상)
-- 3주차에 구현한 기능들 >> 체크포인트로 만들기
-
-데모를 하러 온 부스트캠퍼가 체크포인트를 해볼 수 있도록!
-
-- 3주차 릴레이프로젝트 회고 및 소감
-
-*2*. [#릴레이프로젝트_질의응답](https://boostcamp2020-ch.slack.com/archives/C017LV0RLAK) 채널에 각 팀당 1명이 릴레이프로젝트 질의 응답을 위한 스레드를 남겨주세요.(예시: 3주차 relay1팀 질의 응답은 이 스레드에서 해주세요~)
-
-# '얼마나 즐겁게했는지 잘 드러나도록 준비' 제일 중요하답니다
-
-## 기능 B (비전/영상처리)
+## :collision: 기능 B (비전/영상처리)
 
 1. 사용자의 북마크 모음에 있는 URL에 접속한다.
 2. 접속한 웹페이지의 이미지를 iOS CoreML을 사용하여 어떠한 이미지인지 분류한다.
 
-## 사용한 API
+## :collision: 사용한 API
 
 - CoreML
     - **[VNCoreMLModel](https://developer.apple.com/documentation/vision/vncoremlmodel)**
 
     A container for a Core ML model used with Vision requests.
 
-## 참여자
+## :collision: 참여자
 
 > HTML parsing
 
@@ -50,6 +37,8 @@
 
 ***
 
+## :collision: 세부사항
+
 > 이미지 키워드 추출
 
 - CoreML 프레임워크 사용
@@ -59,9 +48,10 @@
 2. input으로 들어온  image를 key word classify한다.
 3. 결과로 분류된 값을 string 값으로 return 해주게 된다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/208da65c-10df-48c4-a7ef-56ec2cbf8c8d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/208da65c-10df-48c4-a7ef-56ec2cbf8c8d/Untitled.png)
+![image (1)](https://user-images.githubusercontent.com/20080283/90231287-eabc0b00-de55-11ea-88ae-3ffccbd37a3f.png)
 
-이미지 처리 데모 버전
+
+> 이미지 처리 데모 버전
 
 > HTML 파싱
 
@@ -73,13 +63,19 @@
 
 > 결과
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c09cc69d-c834-453b-b5fa-8ffad4e895a1/_2020-08-14__5.15.51.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c09cc69d-c834-453b-b5fa-8ffad4e895a1/_2020-08-14__5.15.51.png)
+![_2020-08-14__5 34 35](https://user-images.githubusercontent.com/20080283/90231398-1212d800-de56-11ea-9d67-fd131b299a22.png)
+![_2020-08-14__5 15 51](https://user-images.githubusercontent.com/20080283/90231402-12ab6e80-de56-11ea-9103-d6a31c5f663a.png)
+
+> 유튜브 최종 시연 및 즐거운 리액션 영상
+
+최종 시연 영상 : [https://youtu.be/cNI_1EXLHMc](https://youtu.be/cNI_1EXLHMc) 
+
 
 - **체크포인트**
 - [ ]  URL 에 있는 사진들이 추출 되었는가?
 - [ ]  URL 사진에 있는 내용이 detection 된 단어와 일치하는가?
 
-릴레이 프로젝트 회고
+## :collision: 릴레이 프로젝트 회고
 
 - **S005_권지웅** - ios를 잘 몰라 직접적인 도움이 못되었는데 능력자 분들이 코딩하는 모습을 보면서 여러모로 많이 배워가는 것 같습니다.
 

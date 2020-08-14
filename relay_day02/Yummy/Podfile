@@ -9,4 +9,6 @@ target 'Yummy' do
   pod 'IBMWatsonAssistantV1', '~> 3.5.1'
     pod 'IBMWatsonAssistantV2', '~> 3.5.1'
     pod 'IBMWatsonNaturalLanguageUnderstandingV1', '~> 3.5.1'
+  pod 'SwiftSoup'
+  pod 'Alamofire', '~> 5.2'
 end

@@ -14,6 +14,6 @@
 | ----- | ------------------------------------------------------------ |
 | 0 ~ 1 | **양지원 오다은 오동건 오태양 유시형 유원상 윤병휘 이상윤 장임호 장지석 전재열 정승범** |
 | 2     | [S027_신병기](https://github.com/EthanShin) [S004_고세림](https://github.com/koserim) [S060_최동규](https://github.com/ChoiDongKyu96) [S061_최철웅](https://github.com/chelwoong) [S039_이승진](https://github.com/devilzCough) [S017_박성민](https://github.com/rnfxl92) [S016_문성주](https://github.com/A-by-alimelon) [S028_신은지](https://github.com/devejs) [S049_정승범](https://github.com/back99) [S050_정재명](https://github.com/jjm159) [S003_강병영](https://gist.github.com/RoKang) [S038_이상윤](https://gist.github.com/SANGYOONLEE) |
-| 3     |                                                              |
+| 3     | S008_김병인 S014_남기범 S015_류연수 S025_손승열 S029_심영민 S034_오태양 S044_임리나 S054_조송주 S059_최광현 S005_권지웅 S042_이진호 S051_정택현                                                             |
 | 4     |                                                              |
 

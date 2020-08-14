@@ -66,9 +66,13 @@
 ![_2020-08-14__5 34 35](https://user-images.githubusercontent.com/20080283/90231398-1212d800-de56-11ea-9d67-fd131b299a22.png)
 ![_2020-08-14__5 15 51](https://user-images.githubusercontent.com/20080283/90231402-12ab6e80-de56-11ea-9103-d6a31c5f663a.png)
 
-> 유튜브 최종 시연 및 즐거운 리액션 영상
 
-최종 시연 영상 : [https://youtu.be/cNI_1EXLHMc](https://youtu.be/cNI_1EXLHMc) 
+> 유튜브 최종 시연 및 즐거운 리액션 영상 (필수 시청!!)
+
+</br>
+
+> [![Video Label](http://img.youtube.com/vi/cNI_1EXLHMc/hqdefault.jpg)](https://youtu.be/cNI_1EXLHMc)
+
 
 
 - **체크포인트**

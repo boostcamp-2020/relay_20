@@ -39,8 +39,8 @@ class SearchViewController: UIViewController {
     
     // MARK: 사용자 키, url 입력
     
-    private let myKey = ""
-    private let ibmUrl = ""
+    private let myKey = "5nceVcjflXBcwLp-yz52TqPPibrxAIgV9zB8IKj9e3Ob"
+    private let ibmUrl = "https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/a41fd614-4e0f-4740-a8e3-55efe60e5d2f"
     
     // MARK: - App Life Cycle
     
@@ -96,6 +96,8 @@ class SearchViewController: UIViewController {
             if let categories = analysis.categories {
                 self.categories = categories.compactMap { $0.label }
                 print(categories)
+                RecommendManager.shared.updateKeyWords(self.categories)
+                print(RecommendManager.shared.getRankedKeywords())
             }
         }
     }

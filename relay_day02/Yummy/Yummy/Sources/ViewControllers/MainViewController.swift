@@ -43,4 +43,13 @@ class MainViewController: UIViewController {
             self.navigationController?.pushViewController(rvc, animated: true)
         }
     }
+    
+    @IBAction func functionC(_sender: Any) {
+        guard let rvc = self.storyboard?.instantiateViewController(withIdentifier: "RecommandViewController") as? RecommandViewController else {return}
+        
+        
+        DispatchQueue.main.async {
+            self.navigationController?.pushViewController(rvc, animated: true)
+        }
+    }
 }

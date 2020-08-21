@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		376494AE24EFA5A100B8FA85 /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376494AD24EFA5A100B8FA85 /* SearchAPI.swift */; };
 		4C19B6CB24DD1ADF0003CB28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C19B6CA24DD1ADF0003CB28 /* AppDelegate.swift */; };
 		4C19B6CD24DD1ADF0003CB28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C19B6CC24DD1ADF0003CB28 /* SceneDelegate.swift */; };
 		4C19B6CF24DD1ADF0003CB28 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C19B6CE24DD1ADF0003CB28 /* SearchViewController.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		1D5695F885BE8CF15E7CB11F /* Pods_Yummy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yummy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		376494AD24EFA5A100B8FA85 /* SearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAPI.swift; sourceTree = "<group>"; };
 		4C19B6C724DD1ADF0003CB28 /* Yummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C19B6CA24DD1ADF0003CB28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C19B6CC24DD1ADF0003CB28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			children = (
 				4C19B6DF24DD1DE00003CB28 /* Category.swift */,
 				97ECFB4A24EF96EE00C0DA6B /* RecommandManager.swift */,
+				376494AD24EFA5A100B8FA85 /* SearchAPI.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376494AE24EFA5A100B8FA85 /* SearchAPI.swift in Sources */,
 				4C19B6CF24DD1ADF0003CB28 /* SearchViewController.swift in Sources */,
 				C1BBB64324E678330022D60C /* ImageViewController.swift in Sources */,
 				4C19B6CB24DD1ADF0003CB28 /* AppDelegate.swift in Sources */,

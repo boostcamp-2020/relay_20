@@ -17,6 +17,8 @@
 		4C19B70F24DD92360003CB28 /* RequestHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C19B70E24DD92360003CB28 /* RequestHeaderView.xib */; };
 		4C19B71324DD931E0003CB28 /* RequestHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C19B71224DD931E0003CB28 /* RequestHeaderView.swift */; };
 		7B57CBA5A00F62B91101960E /* Pods_Yummy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5695F885BE8CF15E7CB11F /* Pods_Yummy.framework */; };
+		97ECFB4B24EF96EE00C0DA6B /* RecommandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ECFB4A24EF96EE00C0DA6B /* RecommandManager.swift */; };
+		97ECFB4F24EF9BB900C0DA6B /* RecommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ECFB4E24EF9BB900C0DA6B /* RecommandViewController.swift */; };
 		C1BBB63D24E66AD00022D60C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BBB63C24E66AD00022D60C /* MainViewController.swift */; };
 		C1BBB64124E66EB00022D60C /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C1BBB64024E66EB00022D60C /* Inceptionv3.mlmodel */; };
 		C1BBB64324E678330022D60C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BBB64224E678330022D60C /* ImageViewController.swift */; };
@@ -36,6 +38,8 @@
 		4C19B70E24DD92360003CB28 /* RequestHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestHeaderView.xib; sourceTree = "<group>"; };
 		4C19B71224DD931E0003CB28 /* RequestHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHeaderView.swift; sourceTree = "<group>"; };
 		4E39F0BE249A982EC9214298 /* Pods-Yummy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yummy.release.xcconfig"; path = "Target Support Files/Pods-Yummy/Pods-Yummy.release.xcconfig"; sourceTree = "<group>"; };
+		97ECFB4A24EF96EE00C0DA6B /* RecommandManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommandManager.swift; sourceTree = "<group>"; };
+		97ECFB4E24EF9BB900C0DA6B /* RecommandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommandViewController.swift; sourceTree = "<group>"; };
 		C1BBB63C24E66AD00022D60C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C1BBB64024E66EB00022D60C /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		C1BBB64224E678330022D60C /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				4C19B6DF24DD1DE00003CB28 /* Category.swift */,
+				97ECFB4A24EF96EE00C0DA6B /* RecommandManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 				C1BBB64024E66EB00022D60C /* Inceptionv3.mlmodel */,
 				4C19B6CE24DD1ADF0003CB28 /* SearchViewController.swift */,
 				C1BBB63C24E66AD00022D60C /* MainViewController.swift */,
+				97ECFB4E24EF9BB900C0DA6B /* RecommandViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -277,6 +283,8 @@
 				C1BBB64324E678330022D60C /* ImageViewController.swift in Sources */,
 				4C19B6CB24DD1ADF0003CB28 /* AppDelegate.swift in Sources */,
 				4C19B6CD24DD1ADF0003CB28 /* SceneDelegate.swift in Sources */,
+				97ECFB4B24EF96EE00C0DA6B /* RecommandManager.swift in Sources */,
+				97ECFB4F24EF9BB900C0DA6B /* RecommandViewController.swift in Sources */,
 				C1BBB63D24E66AD00022D60C /* MainViewController.swift in Sources */,
 				C1BBB64124E66EB00022D60C /* Inceptionv3.mlmodel in Sources */,
 				4C19B71324DD931E0003CB28 /* RequestHeaderView.swift in Sources */,
@@ -426,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKU567YQE4;
 				INFOPLIST_FILE = Yummy/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKU567YQE4;
 				INFOPLIST_FILE = Yummy/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
